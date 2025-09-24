@@ -1,0 +1,22 @@
+name: Capture to Proposal Handoff
+description: Transfer project from Capture to Proposal team
+title: "[HANDOFF] "
+labels: ["handoff", "role:capture", "role:proposal"]
+body:
+  - type: input
+    id: project-name
+    attributes:
+      label: Project Name
+    validations:
+      required: true
+  
+  - type: checkboxes
+    id: capture-complete
+    attributes:
+      label: Capture Phase Completion
+      options:
+        - label: Customer needs analysis complete
+        - label: Competitive analysis documented
+        - label: Win themes identified
+        - label: Pricing strategy defined
+        - label: Risk register updated

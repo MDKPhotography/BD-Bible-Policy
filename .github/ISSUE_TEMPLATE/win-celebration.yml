@@ -1,0 +1,19 @@
+name: Win Celebration
+description: Document and celebrate a project win
+title: "[WIN] "
+labels: ["win", "celebration", "success"]
+body:
+  - type: input
+    id: client-name
+    attributes:
+      label: Client Name
+    validations:
+      required: true
+  
+  - type: textarea
+    id: win-story
+    attributes:
+      label: Win Story
+      description: Brief description of the win and key success factors
+    validations:
+      required: true

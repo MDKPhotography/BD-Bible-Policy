@@ -1,0 +1,37 @@
+name: Gate Review
+description: Review for advancing through BD process gates
+title: "[GATE] "
+labels: ["gate-review", "process"]
+body:
+  - type: dropdown
+    id: current-gate
+    attributes:
+      label: Current Gate
+      description: Which gate is the project currently at?
+      options:
+        - Gate 0 - Opportunity Identification
+        - Gate 1 - Qualification & Capture Planning
+        - Gate 2 - Solution Development
+        - Gate 3 - Proposal Development
+        - Gate 4 - Negotiation & Close
+    validations:
+      required: true
+  
+  - type: input
+    id: project-name
+    attributes:
+      label: Project Name
+      description: Name of the project under review
+    validations:
+      required: true
+  
+  - type: checkboxes
+    id: criteria
+    attributes:
+      label: Gate Advancement Criteria
+      options:
+        - label: All required documents completed
+        - label: Stakeholder approvals obtained
+        - label: Risk assessment documented
+        - label: Resource allocation confirmed
+        - label: Win probability assessed

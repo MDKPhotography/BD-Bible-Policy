@@ -1,0 +1,19 @@
+{
+  "lastUpdated": "2024-01-15T12:00:00Z",
+  "gates": {
+    "gate0": { "count": 5, "avgDays": 7 },
+    "gate1": { "count": 4, "avgDays": 14 },
+    "gate2": { "count": 3, "avgDays": 21 },
+    "gate3": { "count": 2, "avgDays": 28 },
+    "gate4": { "count": 1, "avgDays": 14 }
+  },
+  "winRate": {
+    "overall": 0.35,
+    "byGate": {
+      "gate1": 0.80,
+      "gate2": 0.60,
+      "gate3": 0.50,
+      "gate4": 0.70
+    }
+  }
+}

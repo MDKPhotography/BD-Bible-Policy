@@ -1,0 +1,12 @@
+# Global Owners
+* @MDKPhotography
+
+# Documentation
+*.md @MDKPhotography
+
+# Frontend Components
+/frontend/src/MetricsDashboard.js @MDKPhotography
+/frontend/src/EnhancedDashboard.js @MDKPhotography
+
+# Backend
+/backend/ @MDKPhotography
