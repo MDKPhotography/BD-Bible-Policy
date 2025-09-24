@@ -192,7 +192,7 @@ const HeroPage = ({ documents, setView, loadDocument }) => {
         </h2>
         <div style={{ display: 'flex', gap: '25px', justifyContent: 'center' }}>
           <button 
-            onClick={() => console.log('dashboard')}
+            onClick={() => setView('dashboard')}
             style={{
               padding: '18px 45px',
               background: 'linear-gradient(135deg, #006633 0%, #00563F 100%)',

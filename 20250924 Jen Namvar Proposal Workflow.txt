@@ -1,0 +1,50 @@
+Proposal Workflow
+
+I used MDA SHIELD as an example for convenience. Typically, we will want to do the following when we are Prime. In the case of SHIELD, we are not the Prime responding.  I am pointing out the standard proposal artifacts and norms for other efforts moving forward. 
+ 
+Proposal Kick-Off Meeting. 
+In the Proposal Kick-Off Mtg the Proposal Manager goes over these main points:
+The Proposal Outline 
+Schedule (including color team reviews)
+Proposal Team
+Communications (contact info, and where to store documents in the proposal library)
+Note: There is also a separate writer's kick-off to discuss the approach to each major section with the writing team and address any questions.
+Proposal Outline & Compliance Matrix -
+The Compliance Matrix & Outline should be developed for every proposal without exception.
+Outline - covers the L & M criteria and what topics need to be addressed in the proposal. One is developed for every volume. 
+Compliance Matrix - is a table that covers every proposal requirement. The proposal manager uses it as a tool to ensure overall proposal compliance. 
+Proposal Template -
+Not required for this particular MDA proposal because we used the Gov't template, but.
+Template is normally required for every proposal. Provides writers with guidelines for font, margins, etc. and helps them ensure they stay within page count.
+Proposal Schedule - developed for every proposal without exception. 
+Color team reviews. Specific reviews to assess the proposal response. Reviewers must not be the writers! 
+Blue Team - one of the most critical reviews!
+Review the outline for compliance
+Review the schedule for realism
+Review the storyboards or the annotated mock-ups (AMUs) to review the writers' approach/ response outlines to every proposal section. This includes their win themes, and plans for graphics; ensure the writers' solutions are aligned with the win strategy and they are going in the right direction with their proposal responses; if not, reviewers can give them early feedback so they can course-correct before going too far in the wrong direction.
+Pink Team - 
+Review of the 1st draft - should be at the 70% solution
+There may be imperfect sentences at this stage, but it should not be  simply a cut and paste from previous proposals
+Most of the content should be complete and well thought-out. 
+If there are holes or information the author is waiting on - they need to point these out, state what they need, and provide their plan to complete
+Red Team - should be at the 90 solution
+Review of the final proposal draft. 
+You should be able to submit this draft. 
+The content should be completely there with no holes. 
+Any remaining tweaks should be to simply strengthen the content that is there and ensure it flows properly, and properly supports and doesn't contradict any other parts of the proposal
+Roles & Responsibilities
+Proposal Manager is responsible for proposal compliance and schedule. It does not matter if we are Prime or Sub.
+They assign volume leads and writers. These individuals are also responsible for understanding compliance and schedule and adhering to it. If they have any questions or cannot meet a deadline they go to the Proposal Manager.
+The Proposal Manager is main POC and lead the communications during the Proposal Phase
+Communications
+Proposal Site (SharePoint) - is needed for configuration control and the single source of truth. It cuts down on emails
+Folder Structure should be locked down & the same for every proposal. 
+This cuts down on questions on where to find files.
+We need Role-based Access controls for security (Admin, Proposal Manger, Proposal Reviewers, Writers, Graphics Artists, Outside Users) for security
+This helps with security issues like a sub seeing our entire proposal versus just their input. Or a reviewer accidentally deleting or moving a file.
+Daily Stand-ups are with the writers and are led by the Proposal Manager, who is responsible for proposal compliance & schedule. 
+This ensures any questions or issues are addressed in a timely manner.
+With these controls in place, we should not have any reason for emails with dozens of people on the cc: line. All questions on compliance or schedule, or deviations, go to the Proposal manager for resolution. 
+ 
+I am very passionate about the topic of proposal management and the Proposal phase. It is every bit as important as BD and Capture and deserves as much attention in our policies and handbooks.
+

@@ -1,0 +1,101 @@
+Capture process 
+
+RPRC Business Development and Capture Process
+
+1.	Qualifying pursuits and Gate Reviews (Chas)
+a.	Describe vetted pursuit – checklist
+i.	The business development / Capture process begins with the identification of opportunities. At this stage, the RPRC decision maker is just concerned with the following questions:
+1.	What exactly is the opportunity (is this a real opportunity)?
+2.	What is the acquisition schedule (RFI date? RFP Date? Award Date?)
+3.	What is the contract value (Incumbent awarded value? Expected Contract Value? # of awards? Period of Performance?)
+4.	Is there a Government Program Manager or Leader assigned to this requirement?
+5.	Is there money $ aligned to this in the client budget for this year or next year?
+6.	Does the client know RPRC (at this stage it is OK if they don’t, but progress must be made).
+7.	Does the scope of the opportunity align with RPRC capabilities and experience (contracts of similar size and scope).
+8.	Bottom line, to quote Dumb and Dumber: “So your telling me I have a chance”  that is all we care about at Gate 1. 
+b.	Quad Chart Description including Financial Projections
+ 
+i.	Quadrant 1 – The Opportunity (these data can be gathered from GOVWIN or another competitive intelligence tracking tool).
+1.	Procuring Agency: 
+2.	Contract Type:
+3.	Incumbent Contract Value:
+4.	Incumbent Contract Award Date: 
+5.	Incumbent Contract Term: 
+6.	Projected LOE : 
+7.	RFI Date:
+8.	Projected RFP Release Date: 
+9.	Small Biz Goal: 
+10.	Current Gate: 
+11.	Opportunity Mgr: 	
+12.	Program Mgr:  Gate 3 assignment (not for Gates ½)
+13.	Proposal Mgr:  Gate 3 assignment (not for Gates ½)
+ii.	Quadrant 2 – Incumbent / Competition
+1.	Incumbent – Who is the prime and who are the subcontractors on this team? 
+2.	Competition – Who is planning or most likely to prime? Who is looking to sub?
+iii.	Quadrant 3 – SOW Description
+1.	Using previous RFP’s synopsize the SOW scope and primary tasks. 
+iv.	Quadrant 4 – Corporate Experience
+1.	What RPRC contracts can we reference that were active within the last 5 years that are of similar size, scope, and complexity?
+c.	Describe each Gate Review and process in each – I believe we think 4 is right number
+i.	Gate 1 – Opportunity Identification / Qualification
+1.	Identify opportunities – Capture Manager identifies potential opportunities (existing contracts, new opportunities)
+a.	Use all available sources for opportunity identification (Sam.gov, GOVWIN, Bloomberg Government, GovTribe, Federal Compass, FedMine, MyGovWatch, Govly, and Onvia.
+b.	Track current contracts for recompetes. When is the RFP expected. Award expected, How many awards. Who is the incumbent. How much is the Governement spending (Federal Procurement Database System tracks all awards and mods). GOVWIN also does this.
+c.	Network with compete-mates. Attend Conferences and workshops. Meet with other companies as much as possible. 
+2.	Conduct research on opportunity to lead to qualification of opportunity – Does RPRC have the skills and experience to prime or sub this opportunity.
+3.	Gather client information – e.g., RFP, Org Charts, presentations, competitor details (information to substantiate qualification of opportunity)
+4.	Capture Manager provides customer/market intel to RPRC decision makers
+ii.	Gate 2 – Pursue 
+1.	Client history with RPRC?
+2.	Develop a Call Plan to meet with Clients such as Contracting Officer, Program Manager, Technical SME’s, and Acquisition Authorities. Develop a list of questions that need to be asked about a specific opportunity or to narrow down multiple opportunities to identify our niche to prime / sub.
+3.	Opportunity Timeline. Present the acquisition schedule to include: Gate 1-4 schedule overlaid on the acquisition schedule with expected RFI date, RFP date, proposal due date, and award date. 
+4.	Strategy and Win Themes. 
+a.	What is our strategy for positioning to win? Present a plan for how to position RPRC with the client through client meetings, teaming, IR&D investment, key hires, etc… that will position RPRC to qualify, compete, and win this opportunity. 
+b.	Present potential win themes based on our features, benefits, and discriminators.
+5.	Investment Requirements. Describe any RPRC investments required to position to win this opportunity such as key hires, facility requirements such as facility security clearance, ISO certifications, capabilities, etc…
+iii.	Gate 3 – Capture
+1.	Key Personnel. Present summary of key personnel detailing client intimacy and experience to support opportunity requirements.
+2.	Staffing Plan. Present the RPRC capability to staff the anticipated level of effort.
+3.	Dream Team. Present the RPRC Team. How this team meets the opportunity requirements such as the SOW and small business requirements (if required). 
+4.	Updated Strategy and Win Themes. Update strategy and win themes based on continued client call plan and intel.
+5.	Gap Analysis. Present RPRC capabilities to meet the requirements in the SOW, Section L Instructions, and Section M Evaluation Criteria.
+6.	Past Performance / Experience. Present RPRC contracts of similar size, scope, and complexity to the opportunity requirements.
+iv.	Gate 4 - Bid / No Bid (When RFP has been released). Once the RFP is released, you must review the SOW and the terms and conditions such as type of contract, payment terms, conditions, and evaluation criteria and make a decision to bid or no bid. 
+2.	Capture and Proposal (Chas) - (Need provide basic summary for new guy understanding what to expect)
+a.	Capture. If Capture is done correctly, you will achieve the following goals: Position to win with the client. Potentially influence the RFP with requirements that are inclined positively towards RPRC. Learn client hot buttons. Develop win themes, features & benefits for our proposed offering that will match the clients hot buttons. Develop discriminators that differentiate RPRC from our competition (PS: never talk about the competition to the client it may backfire or alienate the client). Develop your technical approach as part of your storyboarding pre-RFP. Finally, build a team of companies and hire key personnel that matches the SOW Technical, Management, Past Performance, and Cost requirements expected in the RFP. 
+i.	Position to win with the Client. The main purpose of capture is to meet the client and gain customer knowledge and intimacy. The first fule of client meetings is “don’t do all the talking”. Start with pleasantries. Then move into business. Try to get the client talking. I don’t recommend briefing the client at a first meeting. You can leave a white paper or one pager describing the company and our capabilities, but client’s hate to take office calls from people who come in and talk for 30 minutes or an hour straight.  The goal of client meetings is to learn what the Client wants / needs. Don’t assume you know anything. Ask questions. If the client is interested you won’t be able to shut them up. Let them talk and take lots of notes.  The Capture Manager should always try to meet with the client with a second person as part of a team. When one person is talking, the other person is taking notes. 
+ii.	Potentially influence the RFP with requirements that are inclined positively towards RPRC. 99% of all proposals are won before the RFP is written and published for competition. Some company is either the incumbent (incumbents win 90% of all bids). Or the incumbent is being fired and the client has been talking to other companies and has decided to select this new company. If you assume this is true, then you are not wrong very often.  Never bid on something where you have not met with the client and been given a positive affirmation that they want you to bid (however, don’t assume that when the contracting officer or Technical Project Manager or Acquisition Authority tells you its OK to bid that you have a chance). What you want is for the client to be asking you questions. Like, how do I contract with RPRC?  What contract vehicles do you have? 
+iii.	Learn client hot buttons. Hot buttons are “the key emotional drivers or urgent problems that motivate a customer to take action or make a purchase, often involving their personal aspirations, needs, or fears”. This is why we talk to clients. Capture Managers should talk to anyone they can with a client. Sometimes you start with the contracting officer because that is the only POC published in SAM.gov. if a technical POC is given such as a Program Manager the Capture Manager should start with them. If possible, meeting with subordinates (in a large command who are involved in the project) is also recommended. If possible as part of the capture, try to identify who the acquisition authority is. Who is making the ultimate decision. Typically a O6 or above or Senior Executive. Each POC that is interviewed may have different hot buttons. Capturing all of these hot buttons will help the Capture Manager understand the underlying reasons for the procurement and what the client really wants. 
+iv.	Develop win themes, features & benefits for our proposed offering that will match the client’s hot buttons.
+1.	Features – Features are typically people, processes, or tools that we will propose as part of our solutions.  Like a Cyber Lab or our expertise with Cameo Systems Modeler with lots of students (Grad Students would be best) who are US citizens who can be given sensitive information to work with. A person can be a feature. Such as our Program Manager or a Subject Matter Expert (SME) on a specific technology.
+2.	Benefits – A benefit is how a feature is a benefit to the client such as saving $ or time or producing high quality products. It has to be something that is a benefit to the client, not RPRC. People confuse this a lot so don’t think this is a silly statement. Must be a benefit to the client!
+3.	Win Themes – These are statements that summarize Why RPRC?  Should reference the client hot button(s), a feature that addresses the client hot button(s), and why this is a benefit to the client.
+v.	Develop discriminators that differentiate RPRC from our competition (PS: never talk about the competition to the client it may backfire or alienate the client). 
+1.	Discriminators are features that only RPRC can claim. Cameo Systems Modeler is not a discriminator. Too many other contractors can make this claim.
+2.	A Rapid Prototyping Lab could be a discriminator
+3.	A C3 lab for testing prototype radios and waveforms could be a discriminator.
+4.	Warning, I highly recommend with trying to differentiate RPRC from our competition, to not mention another contractor or their products. Ghosting is OK. you don’t mention the contractor by name, but you make a statement (must be true) that there will be no doubt in the readers mind who you are talking about not performing well or failing to hire skilled personnel in a timely manner or not delivering quality products. But this must be done very carefully. Clients don’t like it.
+vi.	Develop your technical approach as part of your storyboarding pre-RFP. 
+1.	Storyboards are the culmination of a good capture. A good storyboard has the following outline:
+a.	SOW Requirement (Technical or Management)
+b.	Policy, standard, guideline, reference, etc… associated with this requirement
+c.	Hot Button(s) associated with this requirement
+d.	Feature(s) associated with this requirement
+e.	Benefits(s) associated with this requirement
+f.	Discriminators associated with this requirement
+g.	Strength, Weakness, Opportunities, Threat (SWOT) Analysis (sometimes a good thing to do, but not required). 
+h.	Win Theme associated with this requirement
+i.	Graphic(s) associated with this requirement. What graphic do you plan to use to represent our technical solution. You must be able to explain our technical or management approach in a flow diagram, org chart, process chart, table, etc…  A sea of words on paper will make the proposal evaluator go to sleep reading your proposal. Recommend  that every page have a graphic of some kind. This could include a call out box with a win theme or a Feature and Benefits Table, but is always best with a graphic showing our process for meeting and exceeding the requirements in the SOW.
+vii.	Finally, build a team of companies and hire key personnel that matches the SOW Technical, Management, Past Performance, and Cost requirements expected in the RFP.
+1.	The Capture Manager should break down the previous RFP / SOW into specific technical and management requirements. These requirements become the rows in a Requirements Traceability Matrix or Capabilities Matrix. RPRC as a prime should be able to meet MOST of the requirements in this matrix. We use subcontractors to fill in the holes. If there is no previous contract with an available RFP / SOW such as the Golden Dome, the Capture Manager must break down the requirements for the specific opportunity that we wish to prime and use these requirements in the RTM. Requirements can come from client briefings, Requests for Information (RFI), Industry Day slides, client papers on the topic in journals, client statements at conferences and workshops.
+2.	From the RTM, the Capture Manager seeks our potential subcontractors who can fill the holes in our capabilities to round out the team. Use subs to answer technical approaches  in the Technical Approach section of the proposal. If a subcontractor wants a workshare (% share or # of personnel to be promised in their Teaming Agreement) I make it clear that to earn this, they must fill one or more technical areas and lead the proposal response for that requirement. This typically smokes out the pretenders. Must be able to produce past performance in the technical area of interest and key personnel in this technical area.
+b.	Proposal Development
+i.	Step one is to break down Section L Instructions and Section M Evaluation Criteria and develop an compliant outline based on the instructions and evaluation criteria (this can be tricky if L and M don’t agree. One has to pick an approach following L or M). 
+ii.	Once the outline is ready and agreed upon (I recommend a Gold Team Review of the outline by senior management), the proposal manager assigns writing responsibilities to each section. If we have done proper capture management and developed storyboards based on the anticipated SOW and requirements, our storyboards should align with the tasks and instructions. Authors should use the storyboards to provide the RPRC approach to each requirement.
+iii.	Recommend a Pink Team Review of the first draft of the proposal by senior management
+iv.	Authors address Pink Team comments and prepare proposal for Red Team Review (final review before submission to client). Proposal support team (tech editors and graphics) prepare technical, management, and past performance volumes for Red team (should be as close to submission ready as possible).
+v.	Red Team Review by senior management. 
+vi.	Authors recover from Red Team review and finalize proposal for submission
+vii.	Pricing should be reviewed by senior management (Green Team) before submission.
+c.	Award and transition to Execution (Chas) (This needs to be handoff with Patt Cobb and Operations.
+i.	The key to award and transition is staffing. Key personnel must be available and ready to start. If key hires were required, it is incumbent upon the bidder to stay in touch with these personnel to make sure they are still committed to the opportunity. If a candidate decommits, some RFP’s may require the bidder to inform the contracting office immediately. Replacements for key hires is allowed. Primes must be ready to provide staff immediately upon award. NOTE: I just received an award on my TSA contract on Monday that gives a start date of Wednesday. All personnel are hires from the previous prime contractor. Reasonable timelines are not to be expected from the Government.

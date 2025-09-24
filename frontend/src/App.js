@@ -1,158 +1,161 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import Login from './Login';
-import HeroPage from './HeroPage';
+import React, { useState } from 'react';
 import './App.css';
+import BDBible from './BDBible';
+import HeroPage from './HeroPage';
+import RPRCCaptureDashboard from './RPRCCaptureDashboard';
+import QuadChart from './QuadChart';
+import GateChecklist from './GateChecklist';
+import ClientMeetingTracker from './ClientMeetingTracker';
+import WinThemesBuilder from './WinThemesBuilder';
+import ProposalWorkflow from './ProposalWorkflow';
 
 function App() {
-  const [token, setToken] = useState(localStorage.getItem('token'));
-  const [user, setUser] = useState(JSON.parse(localStorage.getItem('user') || 'null'));
-  const [documents, setDocuments] = useState([]);
-  const [selectedDoc, setSelectedDoc] = useState(null);
-  const [docContent, setDocContent] = useState('');
-  const [view, setView] = useState('hero');
+  const [view, setView] = useState('home');
+  const [documents] = useState([]);
+  const [hoveredButton, setHoveredButton] = useState(null);
 
-  useEffect(() => {
-    if (token) {
-      fetchDocuments();
+  // GMU Official Colors
+  const gmuColors = {
+    primaryGreen: '#006633',
+    primaryGold: '#FFCC33',
+    darkGreen: '#00563F',
+    secondaryGold: '#FFB81C'
+  };
+
+  const handleViewChange = (newView) => {
+    console.log('Changing view to:', newView);
+    setView(newView);
+  };
+
+  const getButtonStyle = (buttonName) => {
+    const baseStyle = {
+      marginRight: '5px',
+      marginBottom: '5px',
+      padding: '10px 15px',
+      backgroundColor: gmuColors.primaryGold,
+      color: gmuColors.primaryGreen,
+      border: 'none',
+      borderRadius: '4px',
+      cursor: 'pointer',
+      fontSize: '14px',
+      fontWeight: 'bold',
+      transition: 'all 0.3s ease',
+      position: 'relative'
+    };
+
+    // Special style for BD Bible button
+    if (buttonName === 'bdbible') {
+      return {
+        ...baseStyle,
+        backgroundColor: view === 'bdbible' ? gmuColors.primaryGreen : gmuColors.darkGreen,
+        color: 'white',
+        border: `2px solid ${gmuColors.primaryGold}`,
+        boxShadow: hoveredButton === 'bdbible' ? `0 0 25px ${gmuColors.primaryGold}` : 'none'
+      };
     }
-  }, [token]);
 
-  const fetchDocuments = () => {
-    axios.get('http://localhost:5001/api/documents', {
-      headers: { 'Authorization': `Bearer ${token}` }
-    })
-    .then(res => setDocuments(res.data.documents))
-    .catch(err => {
-      console.error('Error:', err);
-      if (err.response?.status === 401) {
-        handleLogout();
-      }
-    });
+    // Active button style
+    if (view === buttonName) {
+      return {
+        ...baseStyle,
+        backgroundColor: gmuColors.secondaryGold,
+        outline: `2px solid ${gmuColors.primaryGreen}`,
+        boxShadow: `0 0 20px ${gmuColors.secondaryGold}`
+      };
+    }
+
+    // Hover effect
+    if (hoveredButton === buttonName) {
+      return {
+        ...baseStyle,
+        backgroundColor: gmuColors.secondaryGold,
+        transform: 'translateY(-2px)',
+        boxShadow: `0 0 25px ${gmuColors.primaryGold}, 0 0 40px ${gmuColors.primaryGold}`,
+        filter: 'brightness(1.1)'
+      };
+    }
+
+    return baseStyle;
   };
 
-  const loadDocument = (filename) => {
-    axios.get(`http://localhost:5001/api/documents/${filename}`, {
-      headers: { 'Authorization': `Bearer ${token}` }
-    })
-    .then(res => {
-      setSelectedDoc(filename);
-      setDocContent(res.data.content);
-      setView('document');
-    })
-    .catch(err => console.error('Error:', err));
+  const headerStyle = {
+    backgroundColor: gmuColors.primaryGreen,
+    color: 'white',
+    padding: '15px 20px',
+    boxShadow: '0 2px 4px rgba(0,0,0,0.2)'
   };
 
-  const handleLogin = (newToken, newUser) => {
-    setToken(newToken);
-    setUser(newUser);
-  };
-
-  const handleLogout = () => {
-    localStorage.removeItem('token');
-    localStorage.removeItem('user');
-    setToken(null);
-    setUser(null);
-    setDocuments([]);
-  };
-
-  if (!token) {
-    return <Login onLogin={handleLogin} />;
-  }
+  const navButtons = [
+    { id: 'bdbible', label: 'BD Bible' },
+    { id: 'home', label: 'Home' },
+    { id: 'capture', label: 'Capture Dashboard' },
+    { id: 'quadchart', label: 'Quad Charts' },
+    { id: 'checklist', label: 'Gate Checklist' },
+    { id: 'meetings', label: 'Meeting Tracker' },
+    { id: 'winthemes', label: 'Win Themes' },
+    { id: 'proposal', label: 'Proposal Workflow' }
+  ];
 
   return (
-    <div style={{ display: 'flex', height: '100vh' }}>
-      {/* Sidebar */}
-      <div style={{
-        width: '280px',
-        background: '#006633',
-        color: 'white',
-        boxShadow: '2px 0 10px rgba(0,0,0,0.1)'
-      }}>
-        {/* User info */}
-        <div style={{
-          background: 'rgba(255,204,51,0.1)',
-          padding: '20px',
-          borderBottom: '1px solid rgba(255,204,51,0.3)'
-        }}>
-          <div style={{ fontSize: '14px', opacity: 0.8 }}>Signed in as:</div>
-          <div style={{ fontWeight: 'bold' }}>{user?.name || user?.email}</div>
-          <button
-            onClick={handleLogout}
-            style={{
-              marginTop: '10px',
-              padding: '5px 10px',
-              background: '#FFCC33',
-              color: '#006633',
-              border: 'none',
-              borderRadius: '4px',
-              cursor: 'pointer',
-              fontSize: '12px',
-              fontWeight: 'bold'
-            }}
-          >
-            Sign Out
-          </button>
-        </div>
-
-        <div style={{ padding: '20px' }}>
-          <div
-            onClick={() => setView('hero')}
-            style={{
-              padding: '12px',
-              background: view === 'hero' ? 'rgba(255,204,51,0.2)' : 'transparent',
-              borderRadius: '4px',
-              cursor: 'pointer',
-              marginBottom: '8px'
-            }}
-          >
-            Home
-          </div>
-
-          <h4 style={{ color: '#FFCC33', marginTop: '30px' }}>Documents</h4>
-          {documents.map(doc => (
-            <div
-              key={doc}
-              onClick={() => loadDocument(doc)}
-              style={{
-                padding: '10px',
-                background: selectedDoc === doc && view === 'document' ? 'rgba(255,204,51,0.2)' : 'transparent',
-                borderRadius: '4px',
-                cursor: 'pointer',
-                marginBottom: '4px'
-              }}
+    <div style={{ minHeight: '100vh', backgroundColor: '#f5f5f5' }}>
+      <header style={headerStyle}>
+        <nav style={{ display: 'flex', flexWrap: 'wrap' }}>
+          {navButtons.map(button => (
+            <button
+              key={button.id}
+              onClick={() => handleViewChange(button.id)}
+              onMouseEnter={() => setHoveredButton(button.id)}
+              onMouseLeave={() => setHoveredButton(null)}
+              style={getButtonStyle(button.id)}
             >
-              {doc.replace('.md', '').replace(/_/g, ' ')}
-            </div>
+              {button.label}
+            </button>
           ))}
-        </div>
-      </div>
-      
-      {/* Main Content */}
-      <div style={{ flex: 1, overflow: 'auto' }}>
-        {view === 'hero' ? (
-          <HeroPage 
-            documents={documents} 
-            setView={setView} 
-            loadDocument={loadDocument} 
-          />
-        ) : (
-          <div style={{ padding: '40px', background: '#f8f9fa', minHeight: '100vh' }}>
-            <h1 style={{ color: '#006633' }}>
-              {selectedDoc?.replace('.md', '').replace(/_/g, ' ')}
-            </h1>
-            <div style={{
-              background: 'white',
-              padding: '40px',
-              borderRadius: '8px',
-              boxShadow: '0 4px 20px rgba(0,0,0,0.06)',
-              whiteSpace: 'pre-wrap'
-            }}>
-              {docContent}
-            </div>
+        </nav>
+      </header>
+
+      <main style={{ padding: '0' }}>
+        {view === 'bdbible' && (
+          <div style={{ padding: '20px' }}>
+            <BDBible />
           </div>
         )}
-      </div>
+        {view === 'home' && (
+          <div style={{ padding: '20px' }}>
+            <HeroPage documents={documents} />
+          </div>
+        )}
+        {view === 'capture' && (
+          <div style={{ padding: '20px' }}>
+            <RPRCCaptureDashboard />
+          </div>
+        )}
+        {view === 'quadchart' && (
+          <div style={{ padding: '20px' }}>
+            <QuadChart />
+          </div>
+        )}
+        {view === 'checklist' && (
+          <div style={{ padding: '20px' }}>
+            <GateChecklist />
+          </div>
+        )}
+        {view === 'meetings' && (
+          <div style={{ padding: '20px' }}>
+            <ClientMeetingTracker />
+          </div>
+        )}
+        {view === 'winthemes' && (
+          <div style={{ padding: '20px' }}>
+            <WinThemesBuilder />
+          </div>
+        )}
+        {view === 'proposal' && (
+          <div style={{ padding: '20px' }}>
+            <ProposalWorkflow />
+          </div>
+        )}
+      </main>
     </div>
   );
 }

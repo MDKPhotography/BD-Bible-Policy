@@ -1,0 +1,39 @@
+# BD Bible Policy System - Cursor Rules
+
+## Project Context
+RPRC Business Development Bible Policy System for capture and proposal management.
+Tech Stack: React, Node.js, Express
+Styling: Inline styles with GMU brand colors ONLY
+
+## CRITICAL BRAND REQUIREMENTS
+USE ONLY GMU OFFICIAL COLORS:
+- Primary Green: #006633
+- Primary Gold: #FFCC33  
+- Dark Green: #00563F
+- Secondary Gold: #FFB81C
+- White: #FFFFFF
+- Light Gray: #F5F5F5
+
+## Code Style
+- Functional React components only
+- Use hooks (useState, useEffect)
+- Inline styles with style objects
+- Optional chaining for safety: obj?.property || defaultValue
+
+## Common Patterns
+```javascript
+// Import theme
+import { gmuColors, gmuTheme } from './gmuTheme';
+
+// Safe props
+const Component = ({ documents = [], onNavigate }) => {
+  // Always provide defaults
+  const docCount = documents?.length || 0;
+  
+  // GMU styled button
+  const buttonStyle = {
+    backgroundColor: gmuColors.primaryGold,
+    color: gmuColors.primaryGreen,
+    fontWeight: 'bold'
+  };
+};

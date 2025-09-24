@@ -1,0 +1,47 @@
+# BD Bible Policy System - Claude Rules
+
+## Project Overview
+This is the RPRC Business Development Bible Policy System, implementing capture and proposal management workflows.
+
+## Brand Standards
+ALL colors MUST follow GMU (George Mason University) official brand guidelines:
+- Primary Green: #006633
+- Primary Gold: #FFCC33
+- Dark Green: #00563F
+- Secondary Gold: #FFB81C
+- White: #FFFFFF
+- Light Gray: #F5F5F5
+
+No other colors should be used without explicit approval.
+
+## Code Standards
+1. All React components use functional components with hooks
+2. Styling uses inline styles with GMU colors from gmuTheme.js
+3. Components should be modular and reusable
+4. Error handling: use optional chaining (?.) and default values
+
+## File Structure
+src/
+├── components/        # Reusable components
+├── App.js            # Main application
+├── gmuTheme.js       # GMU color theme
+└── [feature].js      # Feature components
+
+## Component Guidelines
+- Always import gmuColors from './gmuTheme'
+- Use consistent naming: RPRCCaptureDashboard, QuadChart, etc.
+- Props should have default values to prevent errors
+- Documents prop should always use: documents = [] or documents?.length || 0
+
+## Business Logic
+Follow RPRC's documented processes:
+1. Capture Process (Chas's document) - 4 gates
+2. Proposal Workflow (Jen Namvar's document) - Color team reviews
+3. All processes must align with these source documents
+
+## When Making Changes
+1. Maintain GMU colors throughout
+2. Test all navigation buttons work
+3. Ensure no undefined errors (use optional chaining)
+4. Keep components modular
+5. Follow existing patterns
