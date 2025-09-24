@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Patriot profile with hat -->
+  <path d="M200 80 C220 70, 250 75, 270 85 L275 90 C280 95, 282 100, 280 110 L270 120 C265 125, 260 128, 250 130 L240 135 L235 145 L230 155 L225 165 L220 170 C215 172, 210 173, 205 172 L200 170 L195 165 L190 155 L185 145 L180 135 L170 130 C160 128, 155 125, 150 120 L140 110 C138 100, 140 95, 145 90 L150 85 C170 75, 180 70, 200 80 Z" fill="#006633" stroke="#00563F" stroke-width="2"/>
+  
+  <!-- Star on hat -->
+  <path d="M200 95 L205 105 L215 105 L207 112 L210 122 L200 115 L190 122 L193 112 L185 105 L195 105 Z" fill="#FFCC33"/>
+  
+  <!-- Gold ribbons -->
+  <path d="M250 130 Q280 140, 310 160 Q340 180, 350 210" fill="none" stroke="#FFCC33" stroke-width="8" opacity="0.9"/>
+  <path d="M150 130 Q120 140, 90 160 Q60 180, 50 210" fill="none" stroke="#FFCC33" stroke-width="8" opacity="0.9"/>
+</svg>

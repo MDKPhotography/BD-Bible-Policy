@@ -1,0 +1,94 @@
+/* GMU Brand Typography and Colors */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+  /* GMU Official Colors */
+  --gmu-green: #006633;
+  --gmu-gold: #FFCC33;
+  --gmu-dark-green: #00563F;
+  --gmu-light-green: #008850;
+  --gmu-dark-gold: #FFB81C;
+  --gmu-light-gold: #FFD960;
+  
+  /* Typography */
+  --font-primary: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  --font-display: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  
+  /* Font Weights */
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-black: 900;
+}
+
+/* GMU Typography Classes */
+.gmu-heading {
+  font-family: var(--font-display);
+  font-weight: var(--weight-bold);
+  color: var(--gmu-green);
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.gmu-subheading {
+  font-family: var(--font-primary);
+  font-weight: var(--weight-semibold);
+  color: var(--gmu-dark-green);
+  letter-spacing: -0.01em;
+}
+
+.gmu-body {
+  font-family: var(--font-primary);
+  font-weight: var(--weight-regular);
+  color: #333;
+  line-height: 1.6;
+}
+
+.gmu-accent {
+  color: var(--gmu-gold);
+  font-weight: var(--weight-bold);
+}
+
+/* Button Styles matching GMU */
+.gmu-button-primary {
+  font-family: var(--font-primary);
+  font-weight: var(--weight-semibold);
+  background: var(--gmu-green);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.gmu-button-primary:hover {
+  background: var(--gmu-dark-green);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.gmu-button-secondary {
+  font-family: var(--font-primary);
+  font-weight: var(--weight-semibold);
+  background: var(--gmu-gold);
+  color: var(--gmu-green);
+  border: 2px solid transparent;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.gmu-button-secondary:hover {
+  background: white;
+  border-color: var(--gmu-gold);
+}
