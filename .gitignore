@@ -1,8 +1,8 @@
 node_modules/
+*.log
 .env
 .DS_Store
-*.log
-build/
 dist/
-data/documents/*
-!data/documents/.gitkeep
+build/
+*.tar.gz
+docker/postgres-data/
