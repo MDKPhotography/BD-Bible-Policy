@@ -12,21 +12,21 @@ const HeroPage = ({ documents, setView, loadDocument }) => {
     <div style={{
       minHeight: '100vh',
       background: 'linear-gradient(180deg, #f8f9fa 0%, #dee2e6 100%)',
-      padding: '40px',
+      padding: '20px',  // Reduced from 40px
       position: 'relative'
     }}>
-      {/* Hero Header with Patriot Labs Logo */}
+      {/* Hero Header with Patriot Labs Logo - Reduced Size */}
       <div style={{
         background: 'linear-gradient(135deg, white 0%, #f8f9fa 100%)',
         borderRadius: '20px',
-        padding: '80px 60px',
+        padding: '5px 5px',  // Minimal padding
         boxShadow: `
-          0 30px 60px rgba(0,0,0,0.12),
-          0 15px 30px rgba(0,0,0,0.08),
-          0 5px 15px rgba(0,0,0,0.04)
+          0 15px 30px rgba(0,0,0,0.1),
+          0 8px 15px rgba(0,0,0,0.06),
+          0 3px 8px rgba(0,0,0,0.03)
         `,
         textAlign: 'center',
-        marginBottom: '50px',
+        marginBottom: '15px',  // Reduced margin
         position: 'relative',
         transform: animate ? 'translateY(0)' : 'translateY(-20px)',
         opacity: animate ? 1 : 0,
@@ -38,71 +38,60 @@ const HeroPage = ({ documents, setView, loadDocument }) => {
           top: 0,
           left: 0,
           right: 0,
-          height: '5px',
+          height: '3px',  // Reduced from 5px
           background: 'linear-gradient(90deg, #006633 0%, #FFCC33 50%, #006633 100%)',
           borderRadius: '20px 20px 0 0'
         }} />
 
-        {/* Logo Container */}
+        {/* Centered Container - Logo and Text */}
         <div style={{
           display: 'flex',
-          justifyContent: 'center',
+          flexDirection: 'column',
           alignItems: 'center',
-          gap: '40px',
-          marginBottom: '40px'
+          justifyContent: 'center',
+          paddingTop: '5px'  // Minimal top padding
         }}>
-          <img 
-            src="/images/Patriot Labs Green and Gold.svg" 
+          <img
+            src="/images/Patriot Labs Green and Gold backgroundn removed.svg"
             alt="Patriot Labs"
-            style={{ 
-              height: '120px',
-              filter: 'drop-shadow(0 10px 20px rgba(0,102,51,0.15))'
+            style={{
+              height: '500px',  // Increased by 100% from 250px
+              filter: 'drop-shadow(0 5px 10px rgba(0,102,51,0.15))',
+              marginBottom: '2.5px',  // Reduced by 75% from 10px
+              position: 'relative',
+              zIndex: 1  // Logo behind text
             }}
           />
-          <GMULogo size="large" />
+          <div style={{
+            textAlign: 'center',
+            position: 'relative',
+            zIndex: 2,  // Text in front
+            marginTop: '-200px'  // Move text up by 200px
+          }}>
+            <div style={{
+              fontSize: '3.75rem',  // Increased by 50% from 2.5rem
+              color: '#006633',
+              fontWeight: '900',
+              letterSpacing: '0.01em',  // Tighter letter spacing
+              textShadow: '2px 2px 4px rgba(0,0,0,0.1)',
+              textTransform: 'uppercase',
+              marginBottom: '0px',  // No space between lines
+              lineHeight: '0.8'  // Tighter line height
+            }}>
+              GMU
+            </div>
+            <div style={{
+              fontSize: '3.3rem',  // Increased by 50% from 2.2rem
+              color: '#006633',
+              fontWeight: '900',
+              letterSpacing: '0.01em',  // Tighter letter spacing
+              textShadow: '2px 2px 4px rgba(0,0,0,0.1)',
+              textTransform: 'uppercase'
+            }}>
+              Patriot Labs
+            </div>
+          </div>
         </div>
-        
-        <h1 style={{
-          fontSize: '4rem',
-          background: 'linear-gradient(135deg, #006633 0%, #00563F 100%)',
-          WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent',
-          backgroundClip: 'text',
-          marginBottom: '20px',
-          fontWeight: '900',
-          letterSpacing: '-0.02em',
-          filter: 'drop-shadow(2px 2px 4px rgba(0,0,0,0.1))'
-        }}>
-          BUSINESS DEVELOPMENT
-        </h1>
-        
-        <div style={{
-          fontSize: '3rem',
-          color: '#FFCC33',
-          fontWeight: '900',
-          letterSpacing: '0.15em',
-          marginBottom: '30px',
-          textShadow: '3px 3px 6px rgba(0,0,0,0.1)',
-          textTransform: 'uppercase'
-        }}>
-          BIBLE
-        </div>
-        
-        <p style={{
-          fontSize: '1.25rem',
-          color: '#495057',
-          textTransform: 'uppercase',
-          letterSpacing: '3px',
-          fontWeight: '600',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          gap: '15px'
-        }}>
-          <span style={{ color: '#006633' }}>●</span>
-          George Mason University • Patriot Labs
-          <span style={{ color: '#FFCC33' }}>●</span>
-        </p>
       </div>
 
       {/* Stats Grid remains the same */}
