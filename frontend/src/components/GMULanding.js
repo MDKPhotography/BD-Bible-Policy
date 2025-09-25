@@ -62,13 +62,17 @@ const GMULanding = () => {
     <ParallaxProvider>
       <div className="overflow-x-hidden">
         {/* Navigation - GMU Green background */}
-        <nav className={`fixed w-full z-50 transition-all duration-300 ${
-          scrollY > 50 ? 'bg-gradient-to-r from-gmu-green to-gmu-dark-green shadow-lg py-2' : 'bg-gradient-to-r from-gmu-green to-gmu-dark-green py-6'
+        <nav className={`fixed top-0 w-full z-50 transition-all duration-300 bg-gmu-green ${
+          scrollY > 50 ? 'shadow-lg py-2' : 'py-6'
         }`}>
           <div className="container mx-auto px-6 flex justify-between items-center">
             {/* Home button on far left */}
             <a
-              href="#home"
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.hash = '';
+              }}
               className="bg-gmu-gold text-gmu-green px-4 py-2 rounded-lg font-bold text-sm hover:bg-gmu-gold-secondary transition-all hover:scale-110 inline-block shadow-lg hover:shadow-xl"
               style={{
                 transition: 'all 0.3s ease',
@@ -139,9 +143,9 @@ const GMULanding = () => {
           </div>
         </nav>
 
+
         {/* Hero Section */}
-        <section className="relative min-h-screen bg-gradient-to-br from-gmu-green to-gmu-dark-green">
-          <div className="absolute inset-0 bg-black/20" />
+        <section className="relative min-h-screen bg-gmu-green">
 
           <div className="relative h-full flex items-center justify-center text-center text-white pt-20">
             <motion.div
@@ -217,10 +221,10 @@ const GMULanding = () => {
         </section>
 
         {/* Features Section with Stagger Animation */}
-        <section className="py-20 bg-white">
+        <section className="py-16 bg-white">
           <div className="container mx-auto px-6">
             <motion.h2
-              className="text-5xl font-bold text-center mb-16"
+              className="text-4xl font-bold text-center mb-12"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
@@ -228,24 +232,42 @@ const GMULanding = () => {
               Premium Features
             </motion.h2>
 
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-3 gap-6" style={{ perspective: '1000px' }}>
               {features.map((feature, i) => (
                 <motion.div
                   key={i}
-                  className="bg-gray-50 p-8 rounded-xl hover:shadow-2xl transition-all duration-300 group"
+                  className="bg-gray-50 p-6 rounded-xl transition-all duration-300 group relative"
                   initial={{ opacity: 0, y: 50 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ delay: i * 0.1 }}
                   viewport={{ once: true }}
-                  whileHover={{ y: -10 }}
+                  whileHover={{
+                    y: -10,
+                    rotateX: -10,
+                    rotateY: 5,
+                    scale: 1.05,
+                    transition: { duration: 0.3 }
+                  }}
+                  style={{
+                    transformStyle: 'preserve-3d',
+                    border: '2px solid transparent'
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.boxShadow = '0 0 30px rgba(255, 204, 51, 0.6), 0 10px 40px rgba(0, 0, 0, 0.2)';
+                    e.currentTarget.style.border = '2px solid #FFCC33';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.boxShadow = '';
+                    e.currentTarget.style.border = '2px solid transparent';
+                  }}
                 >
-                  <div className="mb-4">
+                  <div className="mb-3">
                     <feature.Icon
-                      className={`w-12 h-12 ${feature.color} group-hover:text-gmu-gold-secondary transition-colors`}
+                      className={`w-9 h-9 ${feature.color} group-hover:text-gmu-gold-secondary transition-colors`}
                     />
                   </div>
-                  <h3 className="text-xl font-bold mb-2">{feature.title}</h3>
-                  <p className="text-gray-600">{feature.desc}</p>
+                  <h3 className="text-base font-bold mb-1.5">{feature.title}</h3>
+                  <p className="text-sm text-gray-600">{feature.desc}</p>
                 </motion.div>
               ))}
             </div>
@@ -325,24 +347,45 @@ const GMULanding = () => {
           </div>
         </section>
 
-        {/* Contact CTA */}
-        <section className="py-20 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
-          <div className="container mx-auto px-6 text-center">
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-            >
-              <h2 className="text-4xl font-bold mb-6">Ready to Get Started?</h2>
-              <p className="text-xl mb-8 max-w-2xl mx-auto">
-                Join our community of innovative businesses
-              </p>
-              <button className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:shadow-xl transition-all transform hover:scale-105">
-                Schedule a Tour Today
+        {/* Footer with Logo and Business Development Excellence */}
+        <footer className="bg-gmu-green text-white py-16">
+          <div className="container mx-auto px-6">
+            <div className="flex flex-col items-center">
+              {/* Container for logo and text - matching hero layout */}
+              <div className="relative flex flex-col items-center mb-6" style={{ perspective: '1000px' }}>
+                {/* Logo positioned behind text */}
+                <img
+                  src="/images/Patriot Labs Green and Gold backgroundn removed.svg"
+                  alt="Patriot Labs Logo"
+                  className="w-[32rem] h-[32rem] object-contain absolute -top-32 drop-shadow-lg"
+                  style={{
+                    opacity: 0.3,
+                    zIndex: 0,
+                    filter: 'drop-shadow(0 10px 20px rgba(0,0,0,0.3))'
+                  }}
+                />
+
+                {/* Text overlapping bottom half of logo */}
+                <div className="text-center relative z-10 mt-20">
+                  <h3 className="text-3xl font-bold text-gmu-gold">Business Development</h3>
+                  <h3 className="text-2xl font-bold text-white">Excellence</h3>
+                </div>
+              </div>
+
+              {/* Learn More Button */}
+              <button className="border-2 border-gmu-gold text-gmu-gold hover:bg-gmu-gold hover:text-gmu-green px-8 py-4 rounded-lg text-lg font-bold transition-all relative z-10 mb-8">
+                Learn More
               </button>
-            </motion.div>
+
+              {/* Footer Bottom Text */}
+              <div className="text-center mt-8 pt-8 border-t border-white/20 w-full">
+                <p className="text-sm text-gray-300">
+                  © 2025 GMU Business Development. All rights reserved.
+                </p>
+              </div>
+            </div>
           </div>
-        </section>
+        </footer>
       </div>
     </ParallaxProvider>
   );
