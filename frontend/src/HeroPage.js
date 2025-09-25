@@ -28,10 +28,84 @@ const HeroPage = ({ documents, setView, loadDocument }) => {
         textAlign: 'center',
         marginBottom: '15px',  // Reduced margin
         position: 'relative',
+        zIndex: 1,
         transform: animate ? 'translateY(0)' : 'translateY(-20px)',
         opacity: animate ? 1 : 0,
-        transition: 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)'
+        transition: 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)',
+        overflow: 'hidden'  // Hide wave overflow
       }}>
+        {/* Animated Wave Background Inside Box */}
+        <svg
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            zIndex: 0,
+            opacity: 0.3
+          }}
+          preserveAspectRatio="none"
+          viewBox="0 0 1440 400"
+        >
+          <defs>
+            <linearGradient id="boxWaveGradient1" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stopColor="#006633" />
+              <stop offset="50%" stopColor="#FFCC33" />
+              <stop offset="100%" stopColor="#005537" />
+            </linearGradient>
+            <linearGradient id="boxWaveGradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stopColor="#FFCC33" />
+              <stop offset="50%" stopColor="#FFB81C" />
+              <stop offset="100%" stopColor="#006633" />
+            </linearGradient>
+          </defs>
+
+          {/* First Wave */}
+          <path
+            fill="url(#boxWaveGradient1)"
+            d="M0,200 C320,250,420,200,560,230 C700,200,780,240,1120,210 C1460,180,1440,220,1440,220 L1440,550 L0,550 Z"
+            style={{
+              animation: 'boxWave 12s ease-in-out infinite',
+              transformOrigin: 'center'
+            }}
+          />
+
+          {/* Second Wave */}
+          <path
+            fill="url(#boxWaveGradient2)"
+            d="M0,230 C320,200,420,270,560,240 C700,210,780,260,1120,230 C1460,200,1440,240,1440,240 L1440,550 L0,550 Z"
+            style={{
+              animation: 'boxWave 15s ease-in-out infinite reverse',
+              transformOrigin: 'center',
+              opacity: 0.5
+            }}
+          />
+
+          {/* Third Wave - Bottom Layer */}
+          <path
+            fill="#00663315"
+            d="M0,350 C320,400,420,350,560,380 C700,350,780,390,1120,360 C1460,330,1440,370,1440,370 L1440,550 L0,550 Z"
+            style={{
+              animation: 'boxWave 18s ease-in-out infinite',
+              transformOrigin: 'center'
+            }}
+          />
+        </svg>
+
+        {/* CSS Animation for Box Waves */}
+        <style>
+          {`
+            @keyframes boxWave {
+              0%, 100% {
+                transform: translateY(0) scaleY(1);
+              }
+              50% {
+                transform: translateY(-10px) scaleY(0.98);
+              }
+            }
+          `}
+        </style>
         {/* Top accent bar */}
         <div style={{
           position: 'absolute',
@@ -56,10 +130,17 @@ const HeroPage = ({ documents, setView, loadDocument }) => {
             alt="Patriot Labs"
             style={{
               height: '500px',  // Increased by 100% from 250px
-              filter: 'drop-shadow(0 5px 10px rgba(0,102,51,0.15))',
+              filter: `
+                brightness(0.9)
+                contrast(1.2)
+                saturate(1.3)
+                drop-shadow(3px 3px 0px rgba(0,0,0,0.2))
+                drop-shadow(0 0 20px rgba(255,204,51,0.3))
+              `,
               marginBottom: '2.5px',  // Reduced by 75% from 10px
               position: 'relative',
-              zIndex: 1  // Logo behind text
+              zIndex: 1,  // Logo behind text
+              opacity: 0.95
             }}
           />
           <div style={{
@@ -69,23 +150,25 @@ const HeroPage = ({ documents, setView, loadDocument }) => {
             marginTop: '-200px'  // Move text up by 200px
           }}>
             <div style={{
-              fontSize: '3.75rem',  // Increased by 50% from 2.5rem
-              color: '#006633',
-              fontWeight: '900',
-              letterSpacing: '0.01em',  // Tighter letter spacing
-              textShadow: '2px 2px 4px rgba(0,0,0,0.1)',
+              fontFamily: "'Oswald', sans-serif",
+              fontWeight: '700',
+              fontSize: '120px',
+              color: '#005537',
+              WebkitTextStroke: '3px #FFCC33',
+              textShadow: '3px 3px 0px rgba(0,0,0,0.2)',
               textTransform: 'uppercase',
-              marginBottom: '0px',  // No space between lines
-              lineHeight: '0.8'  // Tighter line height
+              marginBottom: '0px',
+              lineHeight: '0.8'
             }}>
               GMU
             </div>
             <div style={{
-              fontSize: '3.3rem',  // Increased by 50% from 2.2rem
-              color: '#006633',
-              fontWeight: '900',
-              letterSpacing: '0.01em',  // Tighter letter spacing
-              textShadow: '2px 2px 4px rgba(0,0,0,0.1)',
+              fontFamily: "'Oswald', sans-serif",
+              fontWeight: '700',
+              fontSize: '100px',  // Slightly smaller for Patriot Labs
+              color: '#005537',
+              WebkitTextStroke: '3px #FFCC33',
+              textShadow: '3px 3px 0px rgba(0,0,0,0.2)',
               textTransform: 'uppercase'
             }}>
               Patriot Labs

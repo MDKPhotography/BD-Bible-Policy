@@ -334,7 +334,7 @@ Each gate requires:
         paddingBottom: '10px',
         marginBottom: '30px'
       }}>
-        RPRC BD Bible Workflow
+        RPRC BD SOP Workflow
       </h1>
 
       {/* Vision and Mission Banner */}

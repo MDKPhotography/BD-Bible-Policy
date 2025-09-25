@@ -43,7 +43,7 @@ function App() {
       position: 'relative'
     };
 
-    // Special style for BD Bible button
+    // Special style for BD SOP button
     if (buttonName === 'bdbible') {
       return {
         ...baseStyle,
@@ -86,7 +86,7 @@ function App() {
   };
 
   const navButtons = [
-    { id: 'bdbible', label: 'BD Bible' },
+    { id: 'bdbible', label: 'BD SOP' },
     { id: 'home', label: 'Home' },
     { id: 'capture', label: 'Capture Dashboard' },
     { id: 'quadchart', label: 'Quad Charts' },

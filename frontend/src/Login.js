@@ -53,7 +53,7 @@ const Login = ({ onLogin }) => {
       }}>
         <div style={{ textAlign: 'center', marginBottom: '30px' }}>
           <GMULogo size="medium" />
-          <h2 style={{ color: '#006633', marginTop: '20px' }}>BD-Bible-Policy</h2>
+          <h2 style={{ color: '#006633', marginTop: '20px' }}>BD-SOP-Policy</h2>
           <p style={{ color: '#666' }}>Sign in to continue</p>
         </div>
 

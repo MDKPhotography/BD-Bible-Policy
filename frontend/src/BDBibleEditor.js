@@ -25,7 +25,7 @@ const BDBibleEditor = ({ token }) => {
         padding: '20px',
         borderRight: '2px solid #dee2e6'
       }}>
-        <h3 style={{ color: '#006633' }}>BD Bible Sections</h3>
+        <h3 style={{ color: '#006633' }}>BD SOP Sections</h3>
         {sections.map(section => (
           <div
             key={section.id}
@@ -54,7 +54,7 @@ const BDBibleEditor = ({ token }) => {
           alignItems: 'center',
           marginBottom: '20px'
         }}>
-          <h2 style={{ color: '#006633' }}>BD Bible Editor</h2>
+          <h2 style={{ color: '#006633' }}>BD SOP Editor</h2>
           <button
             onClick={() => setEditMode(!editMode)}
             style={{
