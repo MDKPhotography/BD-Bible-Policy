@@ -1,39 +1,269 @@
-# BD SOP Policy System - Cursor Rules
+# BD-Bible Frontend - Cursor Rules
 
-## Project Context
-RPRC Business Development SOP Policy System for capture and proposal management.
-Tech Stack: React, Node.js, Express
-Styling: Inline styles with GMU brand colors ONLY
+## Project Overview
+Modern React application for Business Development knowledge management with professional landing pages.
 
-## CRITICAL BRAND REQUIREMENTS
-USE ONLY GMU OFFICIAL COLORS:
-- Primary Green: #006633
-- Primary Gold: #FFCC33  
-- Dark Green: #00563F
-- Secondary Gold: #FFB81C
-- White: #FFFFFF
-- Light Gray: #F5F5F5
+## Tech Stack
+- React 18.2.0 with Hooks
+- Tailwind CSS 3.x for styling
+- Framer Motion for animations
+- Three.js with React Three Fiber for 3D
+- Material-UI and Ant Design components
 
-## Code Style
-- Functional React components only
-- Use hooks (useState, useEffect)
-- Inline styles with style objects
-- Optional chaining for safety: obj?.property || defaultValue
+## Code Style Guidelines
+
+### React Components
+- Use functional components with hooks
+- Prefer const arrow functions for components
+- Destructure props in function parameters
+- Use TypeScript interfaces when applicable
+
+```javascript
+const Component = ({ title, onAction, children }) => {
+  const [state, setState] = useState(false);
+
+  return (
+    <div className="container">
+      {children}
+    </div>
+  );
+};
+```
+
+### Styling Approach
+1. **Tailwind First**: Use Tailwind utility classes
+2. **Styled Components**: For complex dynamic styles
+3. **Inline Styles**: Only for dynamic runtime values
+
+```javascript
+// Tailwind (preferred)
+<div className="bg-blue-600 hover:bg-blue-700 px-4 py-2">
+
+// Styled Components (complex)
+const StyledDiv = styled.div`
+  background: ${props => props.active ? '#006633' : '#FFCC33'};
+`;
+
+// Inline (dynamic only)
+<div style={{ transform: `translateX(${position}px)` }}>
+```
+
+### Animation Patterns
+
+#### Framer Motion
+```javascript
+import { motion } from 'framer-motion';
+
+<motion.div
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.5 }}
+  whileHover={{ scale: 1.05 }}
+>
+  Content
+</motion.div>
+```
+
+#### Parallax Effects
+```javascript
+import { Parallax } from 'react-scroll-parallax';
+
+<Parallax speed={-20}>
+  <div>Parallax content</div>
+</Parallax>
+```
+
+### State Management
+- useState for local state
+- useContext for global state
+- useReducer for complex state logic
+
+```javascript
+const [data, setData] = useState([]);
+const [loading, setLoading] = useState(false);
+const [error, setError] = useState(null);
+```
+
+### API Calls
+```javascript
+useEffect(() => {
+  const fetchData = async () => {
+    setLoading(true);
+    try {
+      const response = await fetch('/api/endpoint');
+      const data = await response.json();
+      setData(data);
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  fetchData();
+}, []);
+```
+
+### File Organization
+```
+src/
+├── components/
+│   ├── common/        # Reusable components
+│   ├── landing/       # Landing page components
+│   └── features/      # Feature-specific
+├── hooks/             # Custom hooks
+├── utils/             # Utility functions
+├── styles/            # Global styles
+└── assets/            # Images, fonts
+```
 
 ## Common Patterns
-```javascript
-// Import theme
-import { gmuColors, gmuTheme } from './gmuTheme';
 
-// Safe props
-const Component = ({ documents = [], onNavigate }) => {
-  // Always provide defaults
-  const docCount = documents?.length || 0;
-  
-  // GMU styled button
-  const buttonStyle = {
-    backgroundColor: gmuColors.primaryGold,
-    color: gmuColors.primaryGreen,
-    fontWeight: 'bold'
-  };
+### Loading States
+```javascript
+if (loading) return <Spinner />;
+if (error) return <ErrorMessage message={error} />;
+```
+
+### Conditional Rendering
+```javascript
+{isVisible && <Component />}
+{items?.length > 0 ? <List /> : <EmptyState />}
+```
+
+### Event Handlers
+```javascript
+const handleClick = useCallback((e) => {
+  e.preventDefault();
+  // logic
+}, [dependencies]);
+```
+
+### Custom Hooks
+```javascript
+const useWindowSize = () => {
+  const [size, setSize] = useState({ width: 0, height: 0 });
+
+  useEffect(() => {
+    const handleResize = () => {
+      setSize({ width: window.innerWidth, height: window.innerHeight });
+    };
+
+    window.addEventListener('resize', handleResize);
+    handleResize();
+
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  return size;
 };
+```
+
+## Performance Best Practices
+
+1. **Memoization**
+```javascript
+const MemoizedComponent = React.memo(Component);
+const memoizedValue = useMemo(() => computeValue(a, b), [a, b]);
+const memoizedCallback = useCallback(() => {}, [deps]);
+```
+
+2. **Lazy Loading**
+```javascript
+const LazyComponent = lazy(() => import('./Component'));
+
+<Suspense fallback={<Loading />}>
+  <LazyComponent />
+</Suspense>
+```
+
+3. **Image Optimization**
+```javascript
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+<LazyLoadImage
+  src={image}
+  alt="Description"
+  effect="blur"
+/>
+```
+
+## Testing Patterns
+```javascript
+import { render, screen, fireEvent } from '@testing-library/react';
+
+test('renders component', () => {
+  render(<Component />);
+  expect(screen.getByText('Text')).toBeInTheDocument();
+});
+```
+
+## Accessibility
+- Use semantic HTML elements
+- Add ARIA labels where needed
+- Ensure keyboard navigation
+- Test with screen readers
+
+```javascript
+<button
+  aria-label="Close dialog"
+  onClick={handleClose}
+  onKeyDown={(e) => e.key === 'Escape' && handleClose()}
+>
+```
+
+## Common Libraries Usage
+
+### Ant Design
+```javascript
+import { Button, Card, Modal } from 'antd';
+
+<Button type="primary" onClick={handleClick}>
+  Click Me
+</Button>
+```
+
+### Material-UI
+```javascript
+import { Button, TextField } from '@mui/material';
+
+<Button variant="contained" color="primary">
+  Submit
+</Button>
+```
+
+### Three.js
+```javascript
+import { Canvas } from '@react-three/fiber';
+import { Box, OrbitControls } from '@react-three/drei';
+
+<Canvas>
+  <ambientLight />
+  <Box position={[0, 0, 0]} />
+  <OrbitControls />
+</Canvas>
+```
+
+## Error Handling
+```javascript
+try {
+  // risky operation
+} catch (error) {
+  console.error('Error:', error);
+  toast.error('Operation failed');
+}
+```
+
+## Environment Variables
+```javascript
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+```
+
+## Git Commit Messages
+- feat: New feature
+- fix: Bug fix
+- docs: Documentation
+- style: Formatting
+- refactor: Code restructuring
+- test: Tests
+- chore: Maintenance
