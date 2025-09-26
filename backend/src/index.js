@@ -109,3 +109,7 @@ app.listen(PORT, () => {
   console.log(`BD-Bible Backend running on port ${PORT}`);
   console.log('Default login: admin@gmu.edu / admin123');
 });
+
+// Add content routes
+const { setupContentRoutes } = require('./content');
+setupContentRoutes(app);
