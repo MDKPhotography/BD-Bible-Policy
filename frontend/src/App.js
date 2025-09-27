@@ -1,11 +1,11 @@
 import React from 'react';
-import BDBibleViewer from './components/BDBibleViewer';
+import GMULanding from './components/GMULanding';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <BDBibleViewer />
+      <GMULanding />
     </div>
   );
 }
