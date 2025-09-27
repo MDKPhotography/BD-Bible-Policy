@@ -1,0 +1,1614 @@
+{
+  "template_file": "/home/mike_komorous/bd-bible/backend/templates/powerpoint/space-bd-quad-charts.pptx",
+  "slide_count": 2,
+  "slide_width": 12192000,
+  "slide_height": 6858000,
+  "slides": [
+    {
+      "slide_number": 1,
+      "layout_name": "Title Only",
+      "shapes": [
+        {
+          "index": 0,
+          "name": "Title 1",
+          "shape_type": "PLACEHOLDER (14)",
+          "left": 838200,
+          "top": 365125,
+          "width": 10515600,
+          "height": 681355,
+          "text_frame": {
+            "text": "Space Command J7",
+            "paragraphs": [
+              {
+                "text": "Space Command J7",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "Space Command J7",
+                    "font": null
+                  }
+                ]
+              }
+            ],
+            "margin_left": 91440,
+            "margin_right": 91440,
+            "margin_top": 45720,
+            "margin_bottom": 45720,
+            "word_wrap": null
+          },
+          "line": {
+            "width": 0
+          }
+        },
+        {
+          "index": 1,
+          "name": "Slide Number Placeholder 2",
+          "shape_type": "PLACEHOLDER (14)",
+          "left": 11682902,
+          "top": 6356350,
+          "width": 406400,
+          "height": 365125,
+          "text_frame": {
+            "text": "1",
+            "paragraphs": [
+              {
+                "text": "1",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": []
+              }
+            ],
+            "margin_left": 91440,
+            "margin_right": 91440,
+            "margin_top": 45720,
+            "margin_bottom": 45720,
+            "word_wrap": null
+          },
+          "line": {
+            "width": 0
+          }
+        },
+        {
+          "index": 2,
+          "name": "Table 3",
+          "shape_type": "TABLE (19)",
+          "left": 428149,
+          "top": 1264110,
+          "width": 5656828,
+          "height": 1778000,
+          "is_table": true,
+          "table": {
+            "rows": 4,
+            "columns": 4,
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Space Command J7",
+                "text_frame": {
+                  "text": "Space Command J7",
+                  "paragraphs": [
+                    {
+                      "text": "Space Command J7",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": [
+                        {
+                          "text": "Space Command J7",
+                          "font": null
+                        }
+                      ]
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "",
+                "text_frame": {
+                  "text": "",
+                  "paragraphs": [
+                    {
+                      "text": "",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": []
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 0,
+                "col": 2,
+                "text": "",
+                "text_frame": {
+                  "text": "",
+                  "paragraphs": [
+                    {
+                      "text": "",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": []
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 0,
+                "col": 3,
+                "text": "",
+                "text_frame": {
+                  "text": "",
+                  "paragraphs": [
+                    {
+                      "text": "",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": []
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Opportunity ID",
+                "text_frame": {
+                  "text": "Opportunity ID",
+                  "paragraphs": [
+                    {
+                      "text": "Opportunity ID",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": [
+                        {
+                          "text": "Opportunity ID",
+                          "font": {
+                            "size": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Space Command J7",
+                "text_frame": {
+                  "text": "Space Command J7",
+                  "paragraphs": [
+                    {
+                      "text": "Space Command J7",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": [
+                        {
+                          "text": "Space Command J7",
+                          "font": {
+                            "size": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 1,
+                "col": 2,
+                "text": "RFP Date",
+                "text_frame": {
+                  "text": "RFP Date",
+                  "paragraphs": [
+                    {
+                      "text": "RFP Date",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": [
+                        {
+                          "text": "RFP Date",
+                          "font": {
+                            "size": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 1,
+                "col": 3,
+                "text": "Not Avail.",
+                "text_frame": {
+                  "text": "Not Avail.",
+                  "paragraphs": [
+                    {
+                      "text": "Not Avail.",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": [
+                        {
+                          "text": "Not Avail.",
+                          "font": {
+                            "size": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "text": "Contract Value (estimate)",
+                "text_frame": {
+                  "text": "Contract Value (estimate)",
+                  "paragraphs": [
+                    {
+                      "text": "Contract Value (estimate)",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": [
+                        {
+                          "text": "Contract Value (estimate)",
+                          "font": {
+                            "size": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "text": "$TBDM",
+                "text_frame": {
+                  "text": "$TBDM",
+                  "paragraphs": [
+                    {
+                      "text": "$TBDM",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": [
+                        {
+                          "text": "$TBDM",
+                          "font": {
+                            "size": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 2,
+                "col": 2,
+                "text": "Award Date",
+                "text_frame": {
+                  "text": "Award Date",
+                  "paragraphs": [
+                    {
+                      "text": "Award Date",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": [
+                        {
+                          "text": "Award Date",
+                          "font": {
+                            "size": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 2,
+                "col": 3,
+                "text": "Not Avail",
+                "text_frame": {
+                  "text": "Not Avail",
+                  "paragraphs": [
+                    {
+                      "text": "Not Avail",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": [
+                        {
+                          "text": "Not Avail",
+                          "font": {
+                            "size": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 3,
+                "col": 0,
+                "text": "Prime/Sub",
+                "text_frame": {
+                  "text": "Prime/Sub",
+                  "paragraphs": [
+                    {
+                      "text": "Prime/Sub",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": [
+                        {
+                          "text": "Prime/Sub",
+                          "font": {
+                            "size": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 3,
+                "col": 1,
+                "text": "TBD",
+                "text_frame": {
+                  "text": "TBD",
+                  "paragraphs": [
+                    {
+                      "text": "TBD",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": [
+                        {
+                          "text": "TBD",
+                          "font": {
+                            "size": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 3,
+                "col": 2,
+                "text": "",
+                "text_frame": {
+                  "text": "",
+                  "paragraphs": [
+                    {
+                      "text": "",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": []
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 3,
+                "col": 3,
+                "text": "",
+                "text_frame": {
+                  "text": "",
+                  "paragraphs": [
+                    {
+                      "text": "",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": []
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "index": 3,
+          "name": "TextBox 6",
+          "shape_type": "TEXT_BOX (17)",
+          "left": 7091715,
+          "top": 744802,
+          "width": 4451745,
+          "height": 1754326,
+          "text_frame": {
+            "text": "Major Milestones/ Capture Progress\n8/12-15 - Table Top Exercise\n10/25-30- Live Fire Exercise\nTBD \u2013 Support Contract Completion\nTBD \u2013 Work Commences\u00a0\n",
+            "paragraphs": [
+              {
+                "text": "Major Milestones/ Capture Progress",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "Major Milestones/ Capture Progress",
+                    "font": {
+                      "bold": true
+                    }
+                  }
+                ]
+              },
+              {
+                "text": "8/12-15 - Table Top Exercise",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "8/12-15 - Table Top Exercise",
+                    "font": null
+                  }
+                ]
+              },
+              {
+                "text": "10/25-30- Live Fire Exercise",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "10/25-30- Live Fire Exercise",
+                    "font": null
+                  }
+                ]
+              },
+              {
+                "text": "TBD \u2013 Support Contract Completion",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "TBD \u2013 Support Contract Completion",
+                    "font": null
+                  }
+                ]
+              },
+              {
+                "text": "TBD \u2013 Work Commences\u00a0",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "TBD \u2013 Work Commences\u00a0",
+                    "font": null
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": []
+              }
+            ],
+            "margin_left": 91440,
+            "margin_right": 91440,
+            "margin_top": 45720,
+            "margin_bottom": 45720,
+            "word_wrap": true
+          },
+          "fill": {
+            "type": "BACKGROUND (5)"
+          },
+          "line": {
+            "width": 0
+          }
+        },
+        {
+          "index": 4,
+          "name": "TextBox 7",
+          "shape_type": "TEXT_BOX (17)",
+          "left": 573042,
+          "top": 3572535,
+          "width": 5361911,
+          "height": 2308324,
+          "text_frame": {
+            "text": "Customer Meeting/ Teaming Progress\nEric and Greg attended Space Command J7\u00a0table top exercise in Colo. Springs in August\nLive Fire Exercise in Late October.\u00a0GMU RPRC to attend\nExecuted NDAs with: TBD\nTeaming Agreement in progress with: TBD\n",
+            "paragraphs": [
+              {
+                "text": "Customer Meeting/ Teaming Progress",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "Customer Meeting/ Teaming Progress",
+                    "font": {
+                      "bold": true
+                    }
+                  }
+                ]
+              },
+              {
+                "text": "Eric and Greg attended Space Command J7\u00a0table top exercise in Colo. Springs in August",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "Eric and Greg attended Space Command J7\u00a0table top exercise in Colo. Springs in August",
+                    "font": null
+                  }
+                ]
+              },
+              {
+                "text": "Live Fire Exercise in Late October.\u00a0GMU RPRC to attend",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "Live Fire Exercise in Late October.\u00a0GMU RPRC to attend",
+                    "font": null
+                  }
+                ]
+              },
+              {
+                "text": "Executed NDAs with: TBD",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "Executed NDAs with: TBD",
+                    "font": null
+                  }
+                ]
+              },
+              {
+                "text": "Teaming Agreement in progress with: TBD",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "Teaming Agreement in progress with: TBD",
+                    "font": null
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": []
+              }
+            ],
+            "margin_left": 91440,
+            "margin_right": 91440,
+            "margin_top": 45720,
+            "margin_bottom": 45720,
+            "word_wrap": true
+          },
+          "fill": {
+            "type": "BACKGROUND (5)"
+          },
+          "line": {
+            "width": 0
+          }
+        },
+        {
+          "index": 5,
+          "name": "TextBox 8",
+          "shape_type": "TEXT_BOX (17)",
+          "left": 7091714,
+          "top": 3429661,
+          "width": 4451745,
+          "height": 1477328,
+          "text_frame": {
+            "text": "Risks, Issues, Challenges, Requests\nDefinition of project not fully\u00a0understood\nJ7 does not have a lot of funding\nCapture team needs SCI clearance\n",
+            "paragraphs": [
+              {
+                "text": "Risks, Issues, Challenges, Requests",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "Risks, Issues, Challenges, Requests",
+                    "font": {
+                      "bold": true
+                    }
+                  }
+                ]
+              },
+              {
+                "text": "Definition of project not fully\u00a0understood",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "Definition of project not fully\u00a0understood",
+                    "font": null
+                  }
+                ]
+              },
+              {
+                "text": "J7 does not have a lot of funding",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "J7 does not have a lot of funding",
+                    "font": null
+                  }
+                ]
+              },
+              {
+                "text": "Capture team needs SCI clearance",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "Capture team needs SCI clearance",
+                    "font": null
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": []
+              }
+            ],
+            "margin_left": 91440,
+            "margin_right": 91440,
+            "margin_top": 45720,
+            "margin_bottom": 45720,
+            "word_wrap": true
+          },
+          "fill": {
+            "type": "BACKGROUND (5)"
+          },
+          "line": {
+            "width": 0
+          }
+        }
+      ],
+      "placeholders": [
+        {
+          "idx": 0,
+          "type": "TITLE (1)",
+          "name": "Title 1",
+          "text": "Space Command J7"
+        },
+        {
+          "idx": 12,
+          "type": "SLIDE_NUMBER (13)",
+          "name": "Slide Number Placeholder 2",
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "slide_number": 2,
+      "layout_name": "Title Only",
+      "shapes": [
+        {
+          "index": 0,
+          "name": "Title 1",
+          "shape_type": "PLACEHOLDER (14)",
+          "left": 838200,
+          "top": 365125,
+          "width": 10515600,
+          "height": 681355,
+          "text_frame": {
+            "text": "Protecting Commercial Satcom",
+            "paragraphs": [
+              {
+                "text": "Protecting Commercial Satcom",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "Protecting Commercial Satcom",
+                    "font": null
+                  }
+                ]
+              }
+            ],
+            "margin_left": 91440,
+            "margin_right": 91440,
+            "margin_top": 45720,
+            "margin_bottom": 45720,
+            "word_wrap": null
+          },
+          "line": {
+            "width": 0
+          }
+        },
+        {
+          "index": 1,
+          "name": "Slide Number Placeholder 2",
+          "shape_type": "PLACEHOLDER (14)",
+          "left": 11682902,
+          "top": 6356350,
+          "width": 406400,
+          "height": 365125,
+          "text_frame": {
+            "text": "2",
+            "paragraphs": [
+              {
+                "text": "2",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": []
+              }
+            ],
+            "margin_left": 91440,
+            "margin_right": 91440,
+            "margin_top": 45720,
+            "margin_bottom": 45720,
+            "word_wrap": null
+          },
+          "line": {
+            "width": 0
+          }
+        },
+        {
+          "index": 2,
+          "name": "Table 3",
+          "shape_type": "TABLE (19)",
+          "left": 428149,
+          "top": 1264110,
+          "width": 5656828,
+          "height": 2138680,
+          "is_table": true,
+          "table": {
+            "rows": 4,
+            "columns": 4,
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Protecting Commercial Satcom",
+                "text_frame": {
+                  "text": "Protecting Commercial Satcom",
+                  "paragraphs": [
+                    {
+                      "text": "Protecting Commercial Satcom",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": [
+                        {
+                          "text": "Protecting Commercial Satcom",
+                          "font": null
+                        }
+                      ]
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "",
+                "text_frame": {
+                  "text": "",
+                  "paragraphs": [
+                    {
+                      "text": "",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": []
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 0,
+                "col": 2,
+                "text": "",
+                "text_frame": {
+                  "text": "",
+                  "paragraphs": [
+                    {
+                      "text": "",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": []
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 0,
+                "col": 3,
+                "text": "",
+                "text_frame": {
+                  "text": "",
+                  "paragraphs": [
+                    {
+                      "text": "",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": []
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Opportunity ID",
+                "text_frame": {
+                  "text": "Opportunity ID",
+                  "paragraphs": [
+                    {
+                      "text": "Opportunity ID",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": [
+                        {
+                          "text": "Opportunity ID",
+                          "font": {
+                            "size": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Protecting Commercial Satcom",
+                "text_frame": {
+                  "text": "Protecting Commercial Satcom",
+                  "paragraphs": [
+                    {
+                      "text": "Protecting Commercial Satcom",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": [
+                        {
+                          "text": "Protecting Commercial Satcom",
+                          "font": {
+                            "size": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 1,
+                "col": 2,
+                "text": "RFP Date",
+                "text_frame": {
+                  "text": "RFP Date",
+                  "paragraphs": [
+                    {
+                      "text": "RFP Date",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": [
+                        {
+                          "text": "RFP Date",
+                          "font": {
+                            "size": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 1,
+                "col": 3,
+                "text": "Not Avail.",
+                "text_frame": {
+                  "text": "Not Avail.",
+                  "paragraphs": [
+                    {
+                      "text": "Not Avail.",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": [
+                        {
+                          "text": "Not Avail.",
+                          "font": {
+                            "size": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "text": "Contract Value (estimate)",
+                "text_frame": {
+                  "text": "Contract Value (estimate)",
+                  "paragraphs": [
+                    {
+                      "text": "Contract Value (estimate)",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": [
+                        {
+                          "text": "Contract Value (estimate)",
+                          "font": {
+                            "size": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "text": "$15M",
+                "text_frame": {
+                  "text": "$15M",
+                  "paragraphs": [
+                    {
+                      "text": "$15M",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": [
+                        {
+                          "text": "$15M",
+                          "font": {
+                            "size": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 2,
+                "col": 2,
+                "text": "Award Date",
+                "text_frame": {
+                  "text": "Award Date",
+                  "paragraphs": [
+                    {
+                      "text": "Award Date",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": [
+                        {
+                          "text": "Award Date",
+                          "font": {
+                            "size": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 2,
+                "col": 3,
+                "text": "2Q 2026",
+                "text_frame": {
+                  "text": "2Q 2026",
+                  "paragraphs": [
+                    {
+                      "text": "2Q 2026",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": [
+                        {
+                          "text": "2Q 2026",
+                          "font": {
+                            "size": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 3,
+                "col": 0,
+                "text": "Prime/Sub",
+                "text_frame": {
+                  "text": "Prime/Sub",
+                  "paragraphs": [
+                    {
+                      "text": "Prime/Sub",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": [
+                        {
+                          "text": "Prime/Sub",
+                          "font": {
+                            "size": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 3,
+                "col": 1,
+                "text": "Stevenson Stellar",
+                "text_frame": {
+                  "text": "Stevenson Stellar",
+                  "paragraphs": [
+                    {
+                      "text": "Stevenson Stellar",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": [
+                        {
+                          "text": "Stevenson Stellar",
+                          "font": {
+                            "size": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 3,
+                "col": 2,
+                "text": "",
+                "text_frame": {
+                  "text": "",
+                  "paragraphs": [
+                    {
+                      "text": "",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": []
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              },
+              {
+                "row": 3,
+                "col": 3,
+                "text": "",
+                "text_frame": {
+                  "text": "",
+                  "paragraphs": [
+                    {
+                      "text": "",
+                      "alignment": null,
+                      "level": 0,
+                      "font": null,
+                      "runs": []
+                    }
+                  ],
+                  "margin_left": 91440,
+                  "margin_right": 91440,
+                  "margin_top": 45720,
+                  "margin_bottom": 45720,
+                  "word_wrap": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "index": 3,
+          "name": "TextBox 6",
+          "shape_type": "TEXT_BOX (17)",
+          "left": 7017632,
+          "top": 1263385,
+          "width": 4663411,
+          "height": 1754326,
+          "text_frame": {
+            "text": "Major Milestones/ Capture Progress\nCongressional Plus Up request - COMPLETE\nAppropriations Committee Results\nContract Award \u2013 2Q 2026\n\n",
+            "paragraphs": [
+              {
+                "text": "Major Milestones/ Capture Progress",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "Major Milestones/ Capture Progress",
+                    "font": {
+                      "bold": true
+                    }
+                  }
+                ]
+              },
+              {
+                "text": "Congressional Plus Up request - COMPLETE",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "Congressional Plus Up request - COMPLETE",
+                    "font": null
+                  }
+                ]
+              },
+              {
+                "text": "Appropriations Committee Results",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "Appropriations Committee Results",
+                    "font": null
+                  }
+                ]
+              },
+              {
+                "text": "Contract Award \u2013 2Q 2026",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "Contract Award \u2013 2Q 2026",
+                    "font": null
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": []
+              },
+              {
+                "text": "",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": []
+              }
+            ],
+            "margin_left": 91440,
+            "margin_right": 91440,
+            "margin_top": 45720,
+            "margin_bottom": 45720,
+            "word_wrap": true
+          },
+          "fill": {
+            "type": "BACKGROUND (5)"
+          },
+          "line": {
+            "width": 0
+          }
+        },
+        {
+          "index": 4,
+          "name": "TextBox 7",
+          "shape_type": "TEXT_BOX (17)",
+          "left": 573042,
+          "top": 3572535,
+          "width": 5361911,
+          "height": 2308324,
+          "text_frame": {
+            "text": "Customer Meeting/ Teaming Progress\n\nMeeting held in February 2025\nCongressional Plus-up request submitted in June/July 2025 through LA/CO/VA Delegations\nWaiting on Congressional FY2026 appropriations decisions\n",
+            "paragraphs": [
+              {
+                "text": "Customer Meeting/ Teaming Progress",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "Customer Meeting/ Teaming Progress",
+                    "font": {
+                      "bold": true
+                    }
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": []
+              },
+              {
+                "text": "Meeting held in February 2025",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "Meeting held in February 2025",
+                    "font": null
+                  }
+                ]
+              },
+              {
+                "text": "Congressional Plus-up request submitted in June/July 2025 through LA/CO/VA Delegations",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "Congressional Plus-up request submitted in June/July 2025 through LA/CO/VA Delegations",
+                    "font": null
+                  }
+                ]
+              },
+              {
+                "text": "Waiting on Congressional FY2026 appropriations decisions",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "Waiting on Congressional FY2026 appropriations decisions",
+                    "font": null
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": []
+              }
+            ],
+            "margin_left": 91440,
+            "margin_right": 91440,
+            "margin_top": 45720,
+            "margin_bottom": 45720,
+            "word_wrap": true
+          },
+          "fill": {
+            "type": "BACKGROUND (5)"
+          },
+          "line": {
+            "width": 0
+          }
+        },
+        {
+          "index": 5,
+          "name": "TextBox 8",
+          "shape_type": "TEXT_BOX (17)",
+          "left": 7091714,
+          "top": 3429661,
+          "width": 4451745,
+          "height": 2862322,
+          "text_frame": {
+            "text": "Risks, Issues, Challenges, Requests\nDoD budgets/priorities in state of flux\nDefinition of Work is very high level\nWill need to hire 1-2 internal cyber experts\nWill have to develop work-share arrangement with Stephenson Stellar\nNeed access to commercial satellite operators to complete work\n",
+            "paragraphs": [
+              {
+                "text": "Risks, Issues, Challenges, Requests",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "Risks, Issues, Challenges, Requests",
+                    "font": {
+                      "bold": true
+                    }
+                  }
+                ]
+              },
+              {
+                "text": "DoD budgets/priorities in state of flux",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "DoD budgets/priorities in state of flux",
+                    "font": null
+                  }
+                ]
+              },
+              {
+                "text": "Definition of Work is very high level",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "Definition of Work is very high level",
+                    "font": null
+                  }
+                ]
+              },
+              {
+                "text": "Will need to hire 1-2 internal cyber experts",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "Will need to hire 1-2 internal cyber experts",
+                    "font": null
+                  }
+                ]
+              },
+              {
+                "text": "Will have to develop work-share arrangement with Stephenson Stellar",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "Will have to develop work-share arrangement with Stephenson Stellar",
+                    "font": null
+                  }
+                ]
+              },
+              {
+                "text": "Need access to commercial satellite operators to complete work",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": [
+                  {
+                    "text": "Need access to commercial satellite operators to complete work",
+                    "font": null
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "alignment": null,
+                "level": 0,
+                "font": null,
+                "runs": []
+              }
+            ],
+            "margin_left": 91440,
+            "margin_right": 91440,
+            "margin_top": 45720,
+            "margin_bottom": 45720,
+            "word_wrap": true
+          },
+          "fill": {
+            "type": "BACKGROUND (5)"
+          },
+          "line": {
+            "width": 0
+          }
+        }
+      ],
+      "placeholders": [
+        {
+          "idx": 0,
+          "type": "TITLE (1)",
+          "name": "Title 1",
+          "text": "Protecting Commercial Satcom"
+        },
+        {
+          "idx": 12,
+          "type": "SLIDE_NUMBER (13)",
+          "name": "Slide Number Placeholder 2",
+          "text": "2"
+        }
+      ]
+    }
+  ]
+}

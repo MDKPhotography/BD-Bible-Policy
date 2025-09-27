@@ -1,0 +1,50 @@
+# BD Bible Database Installation Commands
+# ========================================
+# Run these commands to install PostgreSQL and Redis
+
+# Step 1: Update packages
+sudo apt update
+
+# Step 2: Install PostgreSQL
+sudo apt install postgresql postgresql-contrib -y
+
+# Step 3: Install Redis
+sudo apt install redis-server -y
+
+# Step 4: Start and enable PostgreSQL
+sudo systemctl start postgresql
+sudo systemctl enable postgresql
+sudo systemctl status postgresql
+
+# Step 5: Start and enable Redis
+sudo systemctl start redis-server
+sudo systemctl enable redis-server
+sudo systemctl status redis-server
+
+# Step 6: Create PostgreSQL database and user
+sudo -u postgres psql
+
+# Then in PostgreSQL prompt, paste these commands:
+CREATE DATABASE bd_bible;
+CREATE USER bd_bible_user WITH ENCRYPTED PASSWORD 'your_secure_password_here';
+GRANT ALL PRIVILEGES ON DATABASE bd_bible TO bd_bible_user;
+ALTER DATABASE bd_bible OWNER TO bd_bible_user;
+\q
+
+# Step 7: Test PostgreSQL connection
+psql -h localhost -U bd_bible_user -d bd_bible -c "SELECT version();"
+# (Enter password when prompted)
+
+# Step 8: Test Redis connection
+redis-cli ping
+# Should return: PONG
+
+# Step 9: Restart backend with database connections
+pm2 restart bd-bible-backend
+pm2 logs bd-bible-backend --lines 20
+
+# Step 10: Test the API health endpoint
+curl http://localhost:5001/health
+
+# Optional: Check if databases are being used
+pm2 logs bd-bible-backend --lines 50 | grep -i "database\|redis"

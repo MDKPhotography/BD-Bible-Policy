@@ -8,6 +8,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+// Import quad charts router
+const quadChartsRouter = require('./routes/quadCharts');
+const quadChartWorkflowRouter = require('./routes/quadChartWorkflow');
+
 // Public endpoints (no auth required)
 app.get('/health', (req, res) => {
   res.json({ status: 'healthy', service: 'BD-Bible-Policy' });
@@ -93,23 +97,32 @@ app.get('/api/documents/:filename', verifyToken, (req, res) => {
 app.get('/api/user', verifyToken, (req, res) => {
   const user = users.find(u => u.id === req.user.id);
   if (user) {
-    res.json({ 
-      id: user.id, 
-      email: user.email, 
-      name: user.name, 
-      role: user.role 
+    res.json({
+      id: user.id,
+      email: user.email,
+      name: user.name,
+      role: user.role
     });
   } else {
     res.status(404).json({ error: 'User not found' });
   }
 });
 
-const PORT = process.env.PORT || 5001;
-app.listen(PORT, () => {
-  console.log(`BD-Bible Backend running on port ${PORT}`);
-  console.log('Default login: admin@gmu.edu / admin123');
-});
+// Add quad charts routes
+app.use('/api/quad-charts', quadChartsRouter);
+app.use('/api/quad-chart-workflow', quadChartWorkflowRouter);
+
+// Add template routes
+const templatesRouter = require('./routes/templates');
+app.use('/api/templates', templatesRouter);
 
 // Add content routes
 const { setupContentRoutes } = require('./content');
 setupContentRoutes(app);
+
+const PORT = process.env.PORT || 5001;
+app.listen(PORT, () => {
+  console.log(`BD-Bible Backend running on port ${PORT}`);
+  console.log('Default login: admin@gmu.edu / admin123');
+  console.log('Quad Charts API available at /api/quad-charts');
+});

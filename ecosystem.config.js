@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'bd-sop-frontend',
+      name: 'bd-bible-frontend',
       cwd: './frontend',
       script: 'npm',
       args: 'start',

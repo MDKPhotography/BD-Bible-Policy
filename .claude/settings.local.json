@@ -6,7 +6,18 @@
       "Read(//Users/michaelkomorous/Desktop/CODING/**)",
       "Bash(git commit:*)",
       "Bash(git add:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(lsof:*)",
+      "Bash(npx pm2 list:*)",
+      "Bash(cat:*)",
+      "Bash(timeout:*)",
+      "Bash(npx pm2:*)",
+      "Bash(curl:*)",
+      "Bash(pm2 restart:*)",
+      "Bash(python3 -m pip install:*)",
+      "Bash(python3:*)",
+      "Bash(./venv/bin/pip install python-pptx)",
+      "Bash(./sync-to-github.sh:*)"
     ],
     "deny": [],
     "ask": []

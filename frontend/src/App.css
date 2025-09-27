@@ -7,6 +7,35 @@ body {
   box-sizing: border-box;
 }
 
+/* GMU Brand Colors */
+.bg-gmu-green {
+  background-color: #006633;
+}
+
+.bg-gmu-gold {
+  background-color: #FFCC33;
+}
+
+.bg-gmu-gold-secondary {
+  background-color: #FFD700;
+}
+
+.text-gmu-green {
+  color: #006633;
+}
+
+.text-gmu-gold {
+  color: #FFCC33;
+}
+
+.hover\:bg-gmu-gold-secondary:hover {
+  background-color: #FFD700;
+}
+
+.hover\:text-gmu-gold:hover {
+  color: #FFCC33;
+}
+
 .App {
   min-height: 100vh;
   background-color: #f5f5f5;
@@ -24,7 +53,8 @@ body {
   font-size: 28px;
 }
 
-.App nav button {
+/* Commented out to allow Tailwind styles on nav buttons */
+/* .App nav button {
   background-color: #3498db;
   color: white;
   border: none;
@@ -38,7 +68,7 @@ body {
 
 .App nav button:hover {
   background-color: #2980b9;
-}
+} */
 
 table {
   width: 100%;
